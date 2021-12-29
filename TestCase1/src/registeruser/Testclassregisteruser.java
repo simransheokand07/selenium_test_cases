@@ -50,7 +50,7 @@ public static void main(String[] args) {
      
      //enter email
      WebElement email = driver.findElement(By.cssSelector(".signup-form > form:nth-child(2) > input:nth-child(3)"));
-     email.sendKeys("simransheokandssss@gmail.com");
+     email.sendKeys("simransheo@gmail.com");
      
      //click signup button
      WebElement button = driver.findElement(By.cssSelector("button.btn:nth-child(5)"));
